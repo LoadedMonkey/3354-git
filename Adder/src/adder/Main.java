@@ -8,7 +8,9 @@ public class Main {
             System.out.println(result);
         } catch (Exception e) {
             System.err.println("Please provide integers to add");
-        }
+        } catch (ArithmeticException e){
+		System.err.println("Please use - to subtract");
+	}
     }
 
     private static int addArguments(String[] args) {
