@@ -13,6 +13,12 @@ public class Main {
 
     private static int addArguments(String[] args) {
 	    int total;
+	    if(args[0] == '-')
+	    {
+		for(int x=0; x< args.length(); x++)
+			total -= args[x];
+	    }
+	    else
 	    for (int x = 0; x< args.length(); x++)
 		    total += args[x];
         
