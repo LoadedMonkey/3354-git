@@ -1,0 +1,6 @@
+a) 2
+b) 1/24/2017
+c) status sees working directory, while log sees commited
+d) unstage is stuff not add to commit, while untracked files are not tracked for changes at all
+e) rest updates the index, while checkout updates the working tree
+f) you can't unless you commit or undo changes
